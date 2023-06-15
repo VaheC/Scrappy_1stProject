@@ -1,5 +1,5 @@
 import scrapy
-from items import BookItem
+from bookscraper.items import BookItem
 
 
 class BookspiderSpider(scrapy.Spider):
@@ -52,5 +52,5 @@ class BookspiderSpider(scrapy.Spider):
         book_item["description"] = response.xpath("//div[@id='product_description']/following-sibling::p/text()").get()
         book_item["price"] = response.css("p.price_color ::text").get()
 
-        yield BookItem
+        yield book_item
         
