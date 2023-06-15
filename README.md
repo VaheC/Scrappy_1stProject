@@ -7,4 +7,4 @@
 * the outcome of the above step is in response variable, so we can use it to get various parts of the html (example: response.css("article.product_pod") or response.css("article.product_pod").get())
 * exit scrapy shell using exit command
 * go one level up to bookscraper directory and run "scrapy crawl bookspider" in bash
-
+* run "scrapy crawl bookspider -o bookdata.json" to save data in json
