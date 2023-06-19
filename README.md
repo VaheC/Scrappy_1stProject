@@ -14,4 +14,5 @@
 * install mysql and mysql connector using the following command "pip install mysql mysql-connector-python"
 * use the following commands in mysql: "show databases;", "use books;", "show tables;", "select * from books;"
 * register on "scrapeops.io" to get an api for user agent generation
-* create a new class in middlewares.py and uncomment middlewares in settings to specigfy the new middleware for user agent
+* create a new class in middlewares.py and uncomment middlewares in settings to specify the new middleware for user agent
+* create a new class for header in middlewares.py and specify the new middleware for header in settings
