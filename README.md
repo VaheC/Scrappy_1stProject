@@ -20,4 +20,5 @@
 * visit "https://geonode.com/free-proxy-list" to get ip addresses and ports to specify in settings
 * go to "smartproxy.com" to get proxies and use it in bookspider.py inside response.follow as an argument (meta={"proxy": "acquired link here"})
 * create a custom middleware and set it in settings.py (registered "smartproxy.com" account needed)
-
+* install proxy api related package using "pip install scrapeops-scrapy-proxy-sdk" command
+* for detailed steps for proxy api visit (here)[https://thepythonscrapyplaybook.com/freecodecamp-beginner-course/freecodecamp-scrapy-beginners-course-part-9-rotating-proxies/]
