@@ -16,3 +16,8 @@
 * register on "scrapeops.io" to get an api for user agent generation
 * create a new class in middlewares.py and uncomment middlewares in settings to specify the new middleware for user agent
 * create a new class for header in middlewares.py and specify the new middleware for header in settings
+* install scrapy rotating proxies using the following command "pip install scrapy-rotating-proxies"
+* visit "https://geonode.com/free-proxy-list" to get ip addresses and ports to specify in settings
+* go to "smartproxy.com" to get proxies and use it in bookspider.py inside response.follow as an argument (meta={"proxy": "acquired link here"})
+* create a custom middleware and set it in settings.py (registered "smartproxy.com" account needed)
+
