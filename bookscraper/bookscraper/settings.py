@@ -32,6 +32,9 @@ SCRAPEOPS_NUM_RESULTS = 5
 # PROXY_ENDPOINT = 'gate.smartproxy.com'
 # PROXY_PORT = '7000'
 
+# SCRAPEOPS_API_KEY = '5fd2a82e-db0f-466d-9cc0-8f10a78d5d98'
+# SCRAPEOPS_PROXY_ENABLED = True
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "bookscraper (+http://www.yourdomain.com)"
 
@@ -76,6 +79,7 @@ DOWNLOADER_MIDDLEWARES = {
    #"rotating_proxies.middlewares.RotatingProxyMiddleware": 610,
    #"rotating_proxies.middlewares.BanDetectionMiddleware": 620,
    #"bookscraper.middlewares.MyProxyMiddleware": 350,
+   #"scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk": 725,
 }
 
 # Enable or disable extensions
